@@ -1,0 +1,11 @@
+//comment
+When the config file is loaded, the values will be set in the bean
+
+//output
+Empty CricketCoach constructor
+CricketCoach: inside setter method - setFortuneService
+CricketCoach: inside setter method - setEmailAddress
+CricketCoach: inside setter method - setTeam
+Jhon today is your lucky day mate!
+test@mail.com
+Javea CF
