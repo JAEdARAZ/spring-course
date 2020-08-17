@@ -1,9 +1,11 @@
-scopes of a spring bean
+SCOPES OF A SPRING BEAN
+---------------------------------------------------------------------------
 singleton - create a single shared instance of the bean. Default scope.
 prototype - creates a new bean instance for each container request.
 request   - scoped to a HTTP web request. Only used for web apps.
 session   - scoped to a HTTP web session. Only used for web apps.
 globalsession - scoped to a global HTTP web session. Only used for web apps.
+---------------------------------------------------------------------------
 
 //output with singleton --> just one object in memory
 testVariable alphaCoach: casa
