@@ -1,0 +1,10 @@
+ago 23, 2020 1:21:14 AM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry getSingleton
+DETALLADO: Creating shared instance of singleton bean 'randomFortuneService'
+ago 23, 2020 1:21:14 AM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry getSingleton
+DETALLADO: Creating shared instance of singleton bean 'tennisCoach'
+ago 23, 2020 1:21:14 AM org.springframework.core.env.PropertySourcesPropertyResolver logKeyFound
+DETALLADO: Found key 'foo.email' in PropertySource 'localProperties' with value of type String
+
+Practice forehand bro!
+Beware of the wolf in sheep's clothing!
+email@email.com
