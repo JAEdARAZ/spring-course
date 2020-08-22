@@ -1,0 +1,11 @@
+-> Init-method is executed as the config file is executed (creation of beans)
+-> Destroy-method is executed when we close the context --> context.close()
+------------------------------------------------------------------------
+
+SCOPE = "singleton" //default
+No need to create more than the methods in the class and attributes in the bean config file
+
+------------------------------------------------------------------------
+SCOPE = "prototype"
+Need to create MyCustomBeanProcessor. It will keep track of prototype scoped beans.
+During shutdown it will call the destroy() method on the prototype scoped beans.

@@ -1,0 +1,18 @@
+AUTOWIRING
+- To inject dependencies. Spring looks for a class that matches the property (Class or Interface)
+- Substitutes the dependency that existed in the xml
+
+output:
+--------------------------------------------------------------------------------------------------------------
+ago 22, 2020 10:51:01 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry getSingleton
+DETALLADO: Creating shared instance of singleton bean 'happyFortuneService'
+ago 22, 2020 10:51:01 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry getSingleton
+DETALLADO: Creating shared instance of singleton bean 'tennisCoach'
+ago 22, 2020 10:51:01 PM org.springframework.beans.factory.support.ConstructorResolver createArgumentArray
+DETALLADO: Autowiring by type from bean name 'tennisCoach' via constructor to bean named 'happyFortuneService'
+Practice forehand bro!
+Today your lucky day mate!
+--------------------------------------------------------------------------------------------------------------
+
+it realises that it needs to look for an implementation of the Interface FortuneService, using then happyFortuneService
+to create the bean
