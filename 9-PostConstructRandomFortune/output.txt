@@ -1,0 +1,19 @@
+output
+----------------------------------------------------------------------------------------------------------------------------------------
+ago 23, 2020 5:34:34 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry getSingleton
+DETALLADO: Creating shared instance of singleton bean 'happyFortuneService'
+ago 23, 2020 5:34:34 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry getSingleton
+DETALLADO: Creating shared instance of singleton bean 'randomFortuneService'
+ago 23, 2020 5:34:34 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry getSingleton
+DETALLADO: Creating shared instance of singleton bean 'tennisCoach'
+>> Constructor vacío TennisCoach
+ago 23, 2020 5:34:34 PM org.springframework.core.env.PropertySourcesPropertyResolver logKeyFound
+DETALLADO: Found key 'foo.email' in PropertySource 'localProperties' with value of type String
+>> Practice forehand bro!
+>> today is your lucky day from file 2
+>> email@email.com
+ago 23, 2020 5:34:34 PM org.springframework.context.support.AbstractApplicationContext doClose
+DETALLADO: Closing org.springframework.context.support.ClassPathXmlApplicationContext@6438a396, started on Sun Aug 23 17:34:34 CEST 2020
+----------------------------------------------------------------------------------------------------------------------------------------
+
+everytime it's called it will retrieve a random fortuneService from fortunes.txt file

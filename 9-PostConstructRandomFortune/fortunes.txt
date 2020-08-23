@@ -1,0 +1,3 @@
+today is your lucky day from file 1
+today is your lucky day from file 2
+today is your lucky day from file 3
