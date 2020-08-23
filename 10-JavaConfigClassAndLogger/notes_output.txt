@@ -1,0 +1,20 @@
+output
+---------------------------------------------
+ago 23, 2020 8:50:00 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry getSingleton
+DETALLADO: Creating shared instance of singleton bean 'sadFortuneService'
+ago 23, 2020 8:50:01 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry getSingleton
+DETALLADO: Creating shared instance of singleton bean 'swimCoach'
+>> swim for 30 minutes boy
+>> this is not a good day matie better stay home
+ago 23, 2020 8:50:01 PM org.springframework.context.support.AbstractApplicationContext doClose
+DETALLADO: Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ed6993a, started on Sun Aug 23 20:50:00 CEST 2020
+---------------------------------------------
+
+notes
+-----
+In case we want to add the logger when using a Java Config file, then create: mylogger.properties and MyLoggerConfigJavaClass.java
+
+PROBLEM: can't function without adding @ComponentScan("com.springdemo") into SportConfig.java
+as a consequence, now all classes with @Component would create the Beans, mixing the way to create them
+
+SOLUTION: add @Import(MyLoggerConfigJavaClass.class) into SportConfig.java so it adds just the logger
