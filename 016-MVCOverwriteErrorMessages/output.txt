@@ -1,0 +1,7 @@
+output (when a string is introduced instead of a number in couponss)
+------
+
+Field error in object 'customer' on field 'freeCoupons': rejected value [asdfasdfasdf]; codes [typeMismatch.customer.freeCoupons,typeMismatch.freeCoupons,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customer.freeCoupons,freeCoupons]; arguments []; default message [freeCoupons]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'freeCoupons'; nested exception is java.lang.NumberFormatException: For input string: "asdfasdfasdf"]
+
+------
+that typeMismatch.customer.freeCoupons is what defines which error we want to overwrite on resources/messages.properties
