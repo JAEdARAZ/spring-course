@@ -1,0 +1,4 @@
+Is a good practice to place the main class at the root of the project.
+Because of this, we will be able to reach all the beans during component scanning (unless we have completely independent packages roots)
+
+the folder webapp (Maven folder structure) won't work in case we intend to generate a JAR. It will work with WAR
