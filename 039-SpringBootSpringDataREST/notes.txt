@@ -1,5 +1,6 @@
-Spring Data REST will open the CRUD endpoints without having to do any coding for it.
-Spring Data REST scans to find Jpa Repositories, to then expose endpoints for every type that extends the JpaRepository interface
-The response uses HATEOAS (the format of the JSON that is returned. It adds some extra data, metadata, to the JSON)
-Spring Data REST only uses the id in the URL (not in the body for update, for example) 
-It organizes the data in pages (returns n amount of rows - configurable in properties)
+- Spring Data REST will open the CRUD endpoints without having to do any coding for it.
+- Spring Data REST scans to find Jpa Repositories, to then expose endpoints for every type that extends the JpaRepository interface
+- The response uses HATEOAS (the format of the JSON that is returned. It adds some extra data, metadata, to the JSON)
+- Spring Data REST only uses the id in the URL (not in the body for update, for example) 
+- It organizes the data in pages (returns n amount of rows - configurable in properties)
+- It's also possible to sort by attribute from the client side in the URL: /context-path/employees?sort=lastName,asc
