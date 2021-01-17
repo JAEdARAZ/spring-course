@@ -1,0 +1,7 @@
+Entity Manager with standard JPA API
+    It's a benefit so we could change vendor(Hibernate, EclipseLink...) easily than if we used the vendor's API on the persistance layer
+    There we find the difference between the methods used (Hibernate API | JPA API):
+    - session.save(...) | entityManager.persist(...)
+    - session.get(...) | entityManager.find(...)
+    - session.saveOrUpdate(...) | entityManager.merge(...) --> jpa api apparently doesn't update the object setting the new id (for new entry)
+    - session.delete(...) | entityManager.remove(...) 
