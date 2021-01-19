@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Thymeleaf hi world</title>
+	
+	<link rel="stylesheet" th:href="@{/css/demoStyles.css}" />
+</head>
+
+<body>
+
+	<p th:text="'Current time on server: ' + ${theDate}" class="addedStyle"/> 
+
+</body>
+
+</html>
